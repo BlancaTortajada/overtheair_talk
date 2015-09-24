@@ -76,7 +76,7 @@ body {
   max-height: 95%; }
 
 .reveal strong, .reveal b {
-  font-weight: bold; }
+  font-weight: 700; }
 
 .reveal em {
   font-style: italic; }
@@ -84,7 +84,7 @@ body {
 .reveal ol, .reveal dl, .reveal ul {
   display: inline-block;
   text-align: left;
-  margin: 0 0 0 1em; }
+  margin: 0 0 1em 1em; }
 
 .reveal ol {
   list-style-type: decimal; }
@@ -99,6 +99,24 @@ body {
     padding-bottom: 25px; }
     .reveal ul li:last-child {
       padding-bottom: 0; }
+
+.reveal ul.opportunity, .reveal ul.challenge {
+  list-style-type: none;
+  margin: 0 0 1em 0;
+}
+
+span.sign {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: 700; }
+
+.reveal ul.opportunity {
+  color: #B4FBB7;
+}
+
+.reveal ul.challenge {
+  color: #d6a579;
+}
 
 .reveal ul ul {
   list-style-type: square; }
